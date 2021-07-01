@@ -1,0 +1,130 @@
+/* classes */
+
+.form-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 4em;
+    color: #ffff;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 81px 0px;
+}
+
+.centered {
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.informative-text {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* //elements */
+body {
+    background-color: #6C6FC0;
+}
+
+input {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+button {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+    background-color: #ffff;
+}
+
+@media (min-width: 350px) and (max-width: 500px) {
+
+    .informative-text {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 1.25em;
+        color: white;
+    }
+
+    .title {
+        font-size: 3em;
+        color: #ffff;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        padding: 81px 0px;
+    }
+
+    input {
+        width: 299px;
+        height: 40px;
+        border-radius: 5px;
+        border: transparent;
+    }
+
+    button {
+        width: 299px;
+        height: 40px;
+        border-radius: 5px;
+        border: transparent;
+        cursor: pointer;
+        background-color: #ffff;
+    }
+}
+
+@media (min-width:1px) and (max-width: 330px) {
+    .informative-text {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 1em;
+        color: white;
+    }
+
+    .title {
+        font-size: 2.5em;
+        color: #ffff;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        padding: 81px 0px;
+    }
+
+    input {
+        width: 265px;
+        height: 45px;
+        border-radius: 5px;
+        border: transparent;
+    }
+
+    button {
+        width: 265px;
+        height: 45px;
+        border-radius: 5px;
+        border: transparent;
+        cursor: pointer;
+        background-color: #ffff;
+    }
+
+}

@@ -1,0 +1,55 @@
+ @media (min-width: 350px) and (max-width: 500px) {
+
+     .title {
+         font-size: 3em;
+         color: #ffff;
+         align-self: center;
+         display: flex;
+         justify-content: center;
+         padding: 81px 0px;
+     }
+
+     input {
+         width: 299px;
+         height: 40px;
+         border-radius: 5px;
+         border: transparent;
+     }
+
+     button {
+         width: 299px;
+         height: 40px;
+         border-radius: 5px;
+         border: transparent;
+         cursor: pointer;
+         background-color: #ffff;
+     }
+ }
+
+ @media (min-width:1px) and (max-width: 330px) {
+     .title {
+         font-size: 2.5em;
+         color: #ffff;
+         align-self: center;
+         display: flex;
+         justify-content: center;
+         padding: 81px 0px;
+     }
+
+     input {
+         width: 265px;
+         height: 45px;
+         border-radius: 5px;
+         border: transparent;
+     }
+
+     button {
+         width: 265px;
+         height: 45px;
+         border-radius: 5px;
+         border: transparent;
+         cursor: pointer;
+         background-color: #ffff;
+     }
+
+ }
